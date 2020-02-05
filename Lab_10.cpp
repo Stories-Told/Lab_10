@@ -3,7 +3,6 @@
 #include <string>
 #include <iomanip>
 
-
 using namespace std;
 
 // Global constant for array amount
@@ -22,6 +21,7 @@ struct contactType
     string firstName;
     string lastName;
     long double phoneNumber;
+
 } first_Name[amount], last_Name[amount], phone_Number[amount]; // Struct array variables
 
 int main()
